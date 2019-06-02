@@ -21,9 +21,14 @@ body {
 
 /* add the .bigItem class */
    .bigItem {
-     grid-column-start:2;
-     grid-column-end:4;
-     grid-row-start:2;
-     grid-row-end: 4;
+     /*grid-column-start:2;
+     grid-column-end:4;*/
+     /*Shorthand version*/
+     grid-row: 2/4;
+     
+     /*grid-row-start:2;
+     grid-row-end: 4;*/
+     /*Shorthand version*/
+      grid-column: 2/4;
 
    }
