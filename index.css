@@ -33,4 +33,8 @@ body {
 
  /*short-short hand version*/
       grid-area: 2/2/4/4;
+
+      height: 50%;
+      width: 50%;
+      justify-content: center;
    }
